@@ -2,6 +2,11 @@
 
 This project is an example of Infrastructure as Code (IAC) security scanning with Lacework. It contains Terraform configurations with intentional security issues that can be detected by Lacework's IAC scanner.
 
+## Docs
+
+OPA Rego Docs:
+https://docs.fortinet.com/document/lacework-forticnapp/latest/administration-guide/651014/getting-started-with-opal
+
 ## Security Issues Included
 
 The example Terraform code in the `example-terraform` directory contains numerous security issues across different AWS services, including:
